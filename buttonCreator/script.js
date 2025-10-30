@@ -62,3 +62,4 @@ function showCss() {
 }
 
 //Local Storage - mesmo fechando o browser ele ainda fica salvo no local storage. Sessao storage fica salvo so os dados da sessao
+//quando dizemos limpar o cache é pra limpar todasa essas informações setadas que ficaram salvas nesses campos.
