@@ -29,10 +29,10 @@
 const cep = fetch("https://viacep.com.br/ws/38025370/json/");
 
 cep.then((r) => {
-  if (r.status === 200) {
+  if (r.status === 404) {
     console.log("Pagina encontrada!");
-    console.log(r.type);
   }
+  console.log(r.type);
   // r.headers.forEach(console.log);
 });
 
